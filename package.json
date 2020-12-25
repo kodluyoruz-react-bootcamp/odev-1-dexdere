@@ -1,0 +1,30 @@
+{
+  "name": "Odevler",
+  "version": "1.0.0",
+  "description": "Deneme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/app.js",
+    "start": "node dist/app.js",
+    "build": "sucrase ./src -d ./dist --transforms imports"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kodluyoruz-react-bootcamp/odev-1-dexdere.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kodluyoruz-react-bootcamp/odev-1-dexdere/issues"
+  },
+  "homepage": "https://github.com/kodluyoruz-react-bootcamp/odev-1-dexdere#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.6",
+    "sucrase": "^3.16.0"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
